@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calificame</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/estiloNotas.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo--notas">Calificame</h1>
+        <img src="assets/img/educacion.svg" alt="">
+    </header>
+    <main>
+        <section class="botones-principal">
+            <div class="botones">
+                <button class="nuevo" id="nuevoEstudiante">Nuevo estudiante</button>
+                <button class="eliminar">Eliminar estudiante</button>
+            </div>
+        </section>
+
+        <section class="formulario">
+            <section class="formulario--style">
+                <div class="formulario--style__input">
+                    <label for="nombres">Nombres y apellidos:</label>
+                    <input id="nombres" placeholder="David sanchez" type="text">
+                </div>
+                <div class="formulario--style__input">
+                    <label for="identidicacion"> Identificación:</label>
+                    <input id="identificacion" type="text" placeholder="123456789">
+                </div>
+                <div class="formulario--style__input">
+                    <label for="email">Email:</label>
+                    <input type="email" name="" id="email" placeholder="correo@calificame.com.co">
+                </div>
+            </section>
+        </section>
+        <section class="tabla">
+            <table>
+                <colgroup span="5" class="column"></colgroup>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Identificación</th>
+                    <th>Email</th>
+                    <th>Asistencia</th>
+                    <th>Nota 1</th>
+                    <th>nota 2</th>
+                    <th>Nota 3</th>
+                    <th>Promedio</th>
+                    <!--  <th>Asistencia</th> -->
+                </tr>
+                <tr class="alumno">
+                    <th id="listaNombre"></th>
+                    <th id="listaIdentificacion"></th>
+                    <th id="listaCorreo"></th>
+                    <th ></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th id="asistencia"><button>Asistencia</button></th>
+                </tr>
+            </table>
+        </section>
+
+        <a href="./notas.html"></a>
+
+        <section class="explicacion">
+            <div class="explicacion--desc">
+                <p>Hola, al registrar cada estudiante se llenara la tabla
+                </p>
+
+                
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="notas.js"></script>
+</body>
+
+</html>
