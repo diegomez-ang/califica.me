@@ -4,7 +4,61 @@
 
 }
 
-h1 {
+/* ------- ESTILOS LOGIN ------- */
+
+.principal{
+    background: url(./img/fondo_login.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.inicioSesionTexto{
+    padding: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.inicioSesionusuario,
+.inicioSesiorContraseña{
+    padding: 10px;
+    margin-bottom: 10px;
+    opacity: 1;
+    border: none;
+}
+.inicioSesionButton{
+    padding: 10px;
+    border: none;    
+    margin: 30px;
+    background-color:#27AE60;
+    width: 54%;
+}
+
+.inicioSesion--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    background-color: rgba(253, 97, 75, 0.4);  
+    border-radius: 10px;    
+    font-family: 'Roboto', sans-serif; 
+
+}
+
+.titulo--login{
+    color: #FD614B;
+}
+
+titulo--notas {
     font-family: 'Pacifico', cursive;
     font-size: 70px;
     font-weight: lighter;
@@ -73,10 +127,10 @@ header {
 .formulario--style__input{
     border-right: 20px;
 }
-input{
+/* input{
     border: none;
     border-bottom: 2px solid#FD614B;
-}
+} */
 .tabla{
     display: flex;
     justify-content: center;

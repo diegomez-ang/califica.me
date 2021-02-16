@@ -1,94 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calificame</title>
+    <title>Califica.me</title>
+    <link rel="stylesheet" href="assets/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/875b875fe8.js" crossorigin="anonymous"></script>
+    
 </head>
-
-<body>
-    <header>
-        <h1>Calificame</h1>
-        <img src="assets/img/educacion.svg" alt="">
-    </header>
+<body class="principal">
+    <header></header>
     <main>
-        <section class="botones-principal">
-            <div class="botones">
-                <button class="nuevo">Nuevo estudiante</button>
-                <button class="eliminar">Eliminar estudiante</button>
-            </div>
-        </section>
-
-        <section class="formulario">
-            <section class="formulario--style">
-                <div class="formulario--style__input">
-                    <label for="nombres">Nombres y apellidos:</label>
-                    <input id="nombres" placeholder="David sanchez" type="text">
-                </div>
-                <div class="formulario--style__input">
-                    <label for="identidicacion"> Identificación:</label>
-                    <input id="identidicacion" type="text" placeholder="123456789">
-                </div>
-                <div class="formulario--style__input">
-                    <label for="email">Email:</label>
-                    <input type="email" name="" id="email" placeholder="correo@calificame.com.co">
-                </div>
-            </section>
-        </section>
-        <section class="tabla">
-            <table>
-                <colgroup span="5" class="column"></colgroup>
-                <tr>
-                    <th>Nombre</th>
-                    <th>Identificación</th>
-                    <th>Email</th>
-                    <th>Asistencia</th>
-                    <th>Nota 1</th>
-                    <th>nota 2</th>
-                    <th>Nota 3</th>
-                    <th>Promedio</th>
-                    <!--  <th>Asistencia</th> -->
-                </tr>
-                <tr class="alumno">
-                    <th>Diego Gómez Angarita</th>
-                    <th>123456</th>
-                    <th>diego.gomezFSWD@gmail.com</th>
-                    <th>5.0</th>
-                    <th>5.0</th>
-                    <th>5.0</th>
-                    <th>5.0</th>
-                    <th>5.0</th>
-                    <th><button>Asistencia</button></th>
-                </tr>
-            </table>
-        </section>
-
-        <section class="explicacion">
-            <div class="explicacion--desc">
-                <p>Hola, mi proyecto consiste en llevar las notas de un grupo de estudiantes de un colegio, tendrá
-                    opciones de crear estudiantes con 3 datos basicos como nombre, ID y correo electronico se podran
-                    agregar asistencia, notas y se sacara un promedio de ellas.
-                </p>
-
-                <Div>
-                    <p>carga carga carga</p>
-                </Div>
-            </div>
-        </section>
-
+        <div class="inicioSesion--container">
+            <h2 class="inicioSesionTexto">Inicia sesión</h2>
+            <input class="inicioSesionusuario" type="text" placeholder="Usuario" id="Usuario">
+            <input class="inicioSesiorContraseña" type="password" placeholder="Contraseña">
+            <input class="inicioSesionButton" type="button" value="iniciar sesión" id="iniciarSesion">            
+        </div>
     </main>
     <footer>
 
     </footer>
-
-    <script src="script.js"></script>
+    <script src="./login.js"></script>
 </body>
-
 </html>
