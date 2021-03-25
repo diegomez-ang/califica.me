@@ -25,6 +25,9 @@
                 <button class="eliminar">Eliminar estudiante</button>
             </div>
         </section>
+        <section class="notificacion--section">
+            <p id="notificacion">¡Alumno registrado con exito!</p>
+        </section>      
 
         <section class="formulario">
             <section class="formulario--style">
@@ -33,7 +36,7 @@
                     <input id="nombres" placeholder="David sanchez" type="text">
                 </div>
                 <div class="formulario--style__input">
-                    <label for="identidicacion"> Identificación:</label>
+                    <label for="identificacion"> Identificación:</label>
                     <input id="identificacion" type="text" placeholder="123456789">
                 </div>
                 <div class="formulario--style__input">
@@ -57,9 +60,9 @@
                     <!--  <th>Asistencia</th> -->
                 </tr>
                 <tr class="alumno">
-                    <th id="listaNombre"></th>
-                    <th id="listaIdentificacion"></th>
-                    <th id="listaCorreo"></th>
+                    <th id="listaNombre" style="display: none;"></th>
+                    <th id="listaIdentificacion" style="display: none;"></th>
+                    <th id="listaCorreo" style="display: none;"></th>
                     <th ></th>
                     <th></th>
                     <th></th>
@@ -85,6 +88,7 @@
     <footer>
 
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="notas.js"></script>
 </body>
 
