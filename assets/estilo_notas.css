@@ -1,0 +1,87 @@
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+/* ---------------- Variables ------------- */
+:root{
+    --color-verde: #27AE60;
+    --color-rojo: #FD614B;
+}
+
+
+
+
+ /* --------------- HEADER ------------------ */
+ header{
+     display: flex;
+     justify-content: center;
+ }
+.header--container{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+.header--container--titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    width: 20%;
+}
+.titulo--notas{
+    font-size: 80px;
+    font-family:'Pacifico', cursive;
+    color: var(--color-verde);
+}
+.header--container--logout{
+    padding:50px ;
+    
+}
+.header--container--logout--button{
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-rojo);
+    color: white;
+    border: 1px solid var(--color-rojo);
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.header--container--logout--button:hover{
+    background-color:var(--color-verde);
+    border: 1px solid var(--color-verde);
+}
+
+.header--container--logout--button a{
+    text-decoration: none;
+    color: white;    
+}
+
+/* ------------- FORMULARIO ----------------- */
+
+.formulario-registro{
+    margin: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formulario--style{
+    background-color: var(--color-verde);
+    padding: 20px;
+    width: 20%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.formulario--style__input{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}

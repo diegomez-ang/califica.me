@@ -13,7 +13,7 @@ function loginUser() {
         
         if (nombre.toUpperCase() == 'DIEGO') {
 
-            top.location.href = './notas.html'
+            top.location.href = './notas_final.html'
             console.log("hola diego")
 
         }
