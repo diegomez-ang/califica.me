@@ -19,7 +19,7 @@ function crearEstudiante() {
     console.log($('#identificacion').val())
     console.log($('#email').val()) */
 
-    if (nombres || identificacion || email != null || " ") {
+    if ((nombres || identificacion || email) != (null || " ")) {
         let nodoNombre = document.createElement('tr')
         let nodoNombreTexto = document.createTextNode(nombres)
         nodoNombre.appendChild(nodoNombreTexto)
