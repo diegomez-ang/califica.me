@@ -1,6 +1,9 @@
 /* document.getElementById('nuevoEstudiante').addEventListener('click', crearEstudiante)
 document.getElementById('asistencia').addEventListener('click', registroAsistencia) */
 
+
+
+
 $('#nuevoEstudiante').click(crearEstudiante)
 
 function crearEstudiante() {
