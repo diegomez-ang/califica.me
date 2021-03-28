@@ -29,7 +29,13 @@ $(document).ready( function(){
         $('#identificacion').val(),
         $('#email').val(),
 
-        $.notify("Usuario creado con exito", "success")
+        $.notify("Usuario creado con exito", "success"),
+
+        $('#nombres').val(''),
+        $('#identificacion').val(''),
+        $('#email').val('')
+
+
        ]).draw(false)
 
     })
