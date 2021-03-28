@@ -85,3 +85,7 @@ img{
     flex-direction: column;
     padding: 5px;
 }
+
+.datatable-container{
+    font-family: 'Roboto', sans-serif; ;
+}
